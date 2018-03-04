@@ -6,10 +6,10 @@
 ·                   Aumenta tu productividad al programar
 
 
+                                      ···
 
-
-·                  Santos Gallegos 📧 santos_g@outlook.com
-                                @stsewd 🐦 🐱
+·                  _Santos Gallegos_ 📧 _santos_g@outlook.com_
+                                 _@stsewd_ 🐦 🐱
 
 
 
