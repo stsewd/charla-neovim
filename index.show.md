@@ -32,11 +32,11 @@ En el futuro ya les hablaré de cosas más interesantes.
 
 ---
 
+# ¿Qué es Vim?
 
-
-
-
-
+- Vim es un editor de texto basado en modos
+- Nació como mejora de Vi (1976)
+- Interfaz basada en texto
 
 
 
