@@ -15,11 +15,11 @@
 
 
 ---
+# ¿Por qué una meetup sobre Neovim?
 
+**¡Porque es lo que me gusta!**
 
-
-
-
+En el futuro ya les hablaré de cosas más interesantes.
 
 
 
