@@ -47,3 +47,40 @@ En el futuro ya les hablaré de cosas más interesantes.
 
 
 ---
+
+# ¿Por qué debería aprender Vim en 2018?
+
+Aún es el editor más usado por desarrollador@s.
+
+- Developer Skills Report (Hackerrank - 2018)
+  - https://research.hackerrank.com/developer-skills/2018/#insight6
+- Developer Survey Results (Stackoverflow - 2017)
+  - https://insights.stackoverflow.com/survey/2017#technology-most-popular-developer-environments-by-occupation
+
+
+
+
+
+
+---
+
+# ¿Por qué siguen usándolo?
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+---
+---
+---
+---
+---
