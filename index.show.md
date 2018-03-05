@@ -65,7 +65,7 @@ Aún es el editor más usado por desarrollador@s.
 
 ---
 
-# ¿Por qué siguen usándolo?
+# ¿Por qué siguen lo usando tanta gente?
 
 
 
@@ -80,8 +80,53 @@ Aún es el editor más usado por desarrollador@s.
 
 
 ---
+
+# ¿Por qué debería yo aprender a usarlo?
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
+
+# No para todos
+
+Es para ti si...
+
+No es para ti si...
+
+
+
+
+
+
+
+
+
 ---
+
+# Filosofía de Vim
+
+🖼️
+
+
+
+
+
+
+
+
+
+
+
 ---
 ---
 ---
