@@ -3,13 +3,13 @@
 
 #                           INTRODUCCIÓN A NEOVIM
 
-·                   Aumenta tu productividad al programar 🖹
+·                   Aumenta tu productividad al programar 
 
 
                                       ···
 
-·                  _Santos Gallegos_ 📧 _santos_g@outlook.com_
-                                 _@stsewd_ 🐦 🐱
+·                  _Santos Gallegos_  _santos_g@outlook.com_
+                                 _@stsewd_  
 
 
 
@@ -53,10 +53,10 @@ En el futuro ya les hablaré de cosas más interesantes.
 Aún es el editor más usado por desarrollador@s.
 
 - Developer Skills Report (Hackerrank - 2018)
-  - 🔗 https://research.hackerrank.com/developer-skills/2018/#insight6
+  -  https://research.hackerrank.com/developer-skills/2018/#insight6
 
 - Developer Survey Results (Stackoverflow - 2017)
-  - 🔗 https://insights.stackoverflow.com/survey/2017#technology-most-popular-developer-environments-by-occupation
+  -  https://insights.stackoverflow.com/survey/2017#technology-most-popular-developer-environments-by-occupation
 
 
 
@@ -115,7 +115,7 @@ No es para ti si...
 
 # Filosofía de Vim
 
-🖼️
+
 
 
 
