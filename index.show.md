@@ -46,23 +46,21 @@ En Spanish: Ambiente de Desarrollo Integrado.
 
 En Español: Un conjunto de herramientas para desarrollar.
 
-
-
-
-
-
-
 ---
 
-# ¿Por qué debería aprender Vim en 2018?
+# Antes de empezar...
 
-Aún es el editor más usado por desarrollador@s.
+- ¿En qué lenguajes programas frecuentemente?
+  - _O escribes en general_
+- ¿Qué editor o IDE usas para hacerlo?
 
-- Developer Skills Report (Hackerrank - 2018)
-  -  https://research.hackerrank.com/developer-skills/2018/#insight6
 
-- Developer Survey Results (Stackoverflow - 2017)
-  -  https://insights.stackoverflow.com/survey/2017#technology-most-popular-developer-environments-by-occupation
+
+
+
+
+
+
 
 
 
