@@ -161,16 +161,21 @@ No es para ti si...
 
 ---
 
-# Filosofía de Vim
+# ¿Por qué es tan difícil de aprender?
 
-
+- Al principio lo es, hasta parecerá que es contra-productivo
+  - ¡Igual que cuando aprendes cualquier cosa nueva!
+- Estamos acostumbrados a otro _modelo_ de editor
+- Nos llevamos una mala experiencia al principio
+
+Vim es muuuuuy extenso, es mejor aprenderlo de poco a poco.
+
+Yo aún lo estoy aprendiendo,
+y es divertido tener algo nuevo que aprender cada día.
 
 
 
-
-
-
-
+---
 
 
 
