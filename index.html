@@ -20,6 +20,7 @@ body { font-family: fura; color: #000000; background-color: #ffffff; }
 .Identifier { color: #008080; }
 .htmlItalic { font-style: italic; }
 .Underlined { color: #c000c0; text-decoration: underline; }
+.Comment { color: #0000c0; }
 .Constant { color: #c00000; }
 .htmlBold { font-weight: bold; }
 .Title { color: #c000c0; font-weight: bold; }
@@ -165,30 +166,94 @@ Otras razones...
 
 <span class="Identifier">---</span>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="Identifier">---</span>
-
 <span class="Title"># Filosofía de Vim</span>
 
-
+<span class="Identifier">-</span> Libre de distracciones por defecto
+<span class="Identifier">-</span> Ubicuo
+<span class="Identifier">-</span> Mantenerte en el teclado
+<span class="Identifier">  -</span> El mouse, a veces útil otras no
+<span class="Identifier">-</span> Haz una sólo cosa y hazla bien,
+  pero integrate bien otras herramientas
+<span class="Identifier">-</span> Extensible
+<span class="Identifier">-</span> Bien documentado (sino no está documentado no existe)
+<span class="Identifier">-</span> No combinaciones de teclas raras,
+  todo está organizado de una manera lógica y mnemotécnica
+<span class="Identifier">-</span> Vim entiende el texto que estás editando
+
+<span class="Identifier">---</span>
+
+<span class="Title"># No para todos</span>
+
+Es para ti si...
+<span class="Identifier">-</span> Ere de hacer todo en la terminal
+<span class="Identifier">-</span> Te gusta hacer las cosas desde <span class="htmlItalic">scratch</span>
+<span class="Identifier">-</span> Te gusta leer toda documentación de lo que usas
+
+No es para ti si...
+<span class="Identifier">-</span> Eres muy de interfaces gráficas, ventanas y clicks
+<span class="Identifier">-</span> No te gusta tomarte mucho tiempo configurando/aprendiendo algo
+<span class="Identifier">-</span> No te gusta leer documentación muy extensa
+
+¡Y todas las cosas mencionadas están bien!
+
+<span class="Identifier">---</span>
+
+<span class="Title"># ¿Por qué es tan difícil de aprender?</span>
+
+<span class="Identifier">-</span> Al principio lo es, hasta parecerá que es contra-productivo
+<span class="Identifier">  -</span> ¡Igual que cuando aprendes cualquier cosa nueva!
+<span class="Identifier">-</span> Estamos acostumbrados a otro <span class="htmlItalic">modelo</span> de editor
+<span class="Identifier">-</span> Nos llevamos una mala experiencia al principio
+
+Vim es muuuuuy extenso, es mejor aprenderlo de poco a poco.
+
+Yo aún lo estoy aprendiendo,
+y es divertido tener algo nuevo que aprender cada día.
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># ¿Dónde está la charla de Neovim?</span>
+
+<span class="Identifier">-</span> Neovim es un fork de Vim
+<span class="Identifier">  -</span> ¡Todo lo que hemos hablado aplica a Neovim!
+<span class="Identifier">-</span> Originado en 2014 con la idea de:
+<span class="Identifier">  -</span> Usar Vim como una librería
+<span class="Identifier">  -</span> Seguir estándares
+<span class="Identifier">  -</span> Listo para usar
+<span class="Identifier">  -</span> No tan conservador a los cambios
+<span class="Identifier">  -</span> No reinventar la rueda
+<span class="Identifier">  -</span> Mejor código fuente, menos código más tests
+<span class="Identifier">  -</span> Una comunidad más abierta
+<span class="Identifier">-</span> La comunidad de Vim y Neovim conviven muy bien juntas.
+
+<span class="Identifier">---</span>
 
 
 
 
 
+<span class="Comment">&gt; A nice looking website, that’s one thing Neovim did right.</span>
+
+<span class="Constant">                                                                — Bram Moolenaar</span>
+
+
+
+
+<span class="Identifier">-</span> <span class="Underlined"><a href="https://www.vim.org">https://www.vim.org</a></span>
+<span class="Identifier">-</span> <span class="Underlined"><a href="https://neovim.io/">https://neovim.io/</a></span>
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Más que una web bonita</span>
+
+<span class="Identifier">-</span> Emulador de terminal incluido
+<span class="Identifier">-</span> Ejecución asíncrona
+<span class="Identifier">-</span> API msgpack
+<span class="Identifier">-</span> Plugins remotos
+<span class="Identifier">-</span> Soporte directo para ser embebido
+<span class="Identifier">-</span> Compatiblidad con la mayor parte de plugins de Vim
 
 
 
@@ -196,6 +261,17 @@ Otras razones...
 
 
 <span class="Identifier">---</span>
+
+
+<span class="Constant">`:help 42`</span>
+Modos, modo normal se supone que lo estoy usando para escribir texto y no lo puedo hacer
+Signo de exclamación, piensa en &quot;sólo hazlo!&quot;
+
+Vim se puede usar operadores, objetos, movimientos para editar texto
+Es como un lenguaje
+
+<span class="Comment">&lt;!-- Hacer ejemplos con código en python, c y html --&gt;</span>
+
 <span class="Identifier">---</span>
 <span class="Identifier">---</span>
 
