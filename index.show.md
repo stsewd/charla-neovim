@@ -20,8 +20,10 @@
 
 **¡Porque es lo que me gusta!**
 
-En el futuro ya les hablaré de cosas más interesantes.
+Un editor es nuestra herramienta
+principal al momento de escribir código. 
 
+En el futuro ya les hablaré de cosas más _interesantes_.
 
 
 
