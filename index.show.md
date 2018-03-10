@@ -141,7 +141,7 @@ Otras razones...
 - Bien documentado (sino no está documentado no existe)
 - No combinaciones de teclas raras,
   todo está organizado de una manera lógica y mnemotécnica
-
+- Vim entiende el texto que estás editando
 
 ---
 
@@ -177,10 +177,64 @@ y es divertido tener algo nuevo que aprender cada día.
 
 ---
 
+# ¿Dónde está la charla de Neovim?
+
+- Neovim es un fork de Vim
+  - ¡Todo lo que hemos hablado aplica a Neovim!
+- Originado en 2014 con la idea de:
+  - Usar Vim como una librería
+  - Seguir estándares
+  - Listo para usar
+  - No tan conservador a los cambios
+  - No reinventar la rueda
+  - Mejor código fuente, menos código más tests
+  - Una comunidad más abierta
+- La comunidad de Vim y Neovim conviven muy bien juntas.
+
+---
+
+
+
+
+
+> A nice looking website, that’s one thing Neovim did right.
+
+                                                                — Bram Moolenaar
+
+
+
+
+- https://www.vim.org
+- https://neovim.io/
+
+---
+
+# Más que una web bonita
+
+- Emulador de terminal incluido
+- Ejecución asíncrona
+- API msgpack
+- Plugins remotos
+- Soporte directo para ser embebido
+- Compatiblidad con la mayor parte de plugins de Vim
+
+
+
 
 
 
 ---
+
+
+`:help 42`
+Modos, modo normal se supone que lo estoy usando para escribir texto y no lo puedo hacer
+Signo de exclamación, piensa en "sólo hazlo!"
+
+Vim se puede usar operadores, objetos, movimientos para editar texto
+Es como un lenguaje
+
+<!-- Hacer ejemplos con código en python, c y html -->
+
 ---
 ---
 
