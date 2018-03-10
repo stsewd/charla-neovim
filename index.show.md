@@ -80,29 +80,13 @@ _No está bien_ hacerlo, pero...
 
 ---
 
-# ¿Por qué siguen lo usando tanta gente?
+# ¿Qué es Vim?
 
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-# ¿Por qué debería yo aprender a usarlo?
-
-
-
-
-
-
+- Vim es un editor de texto basado en modos
+- Nació como mejora de Vi (1976)
+  - Que a su vez fue una mejora de otros editores
+  - La fecha en la que _nació_ es importante
+- Interfaz basada en texto
 
 
 
@@ -112,11 +96,44 @@ _No está bien_ hacerlo, pero...
 
 ---
 
-# No para todos
+# ¿Por qué debería aprender Vim en 2018?
 
-Es para ti si...
+Aún es el editor más usado por desarrollador@s.
 
-No es para ti si...
+- Developer Skills Report (Hackerrank - 2018)
+  -  https://research.hackerrank.com/developer-skills/2018/#insight6
+
+- Developer Survey Results (Stackoverflow - 2017)
+  -  https://insights.stackoverflow.com/survey/2017#technology-most-popular-developer-environments-by-occupation
+
+
+
+
+
+
+---
+
+# ¿Por qué realmente debería aprenderlo?
+
+- Vas a tener que usarlo al menos una vez en tu vida.
+  - En un server (no siempre vas a tener una GUI o nano)
+  - Al aprender herramientas en la terminal (como git)
+- Te va a dar otra idea de lo que es editar texto
+
+Otras razones...
+
+- No vas a ser parte de estos números
+  -  https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/
+- Te verás muy _cool_ entre tus amigos 😎
+
+
+---
+
+
+
+
+
+
 
 
 
