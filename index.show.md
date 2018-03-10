@@ -62,9 +62,20 @@ En Español: Un conjunto de herramientas para desarrollar.
 
 
 
+---
 
+# ¿Por qué usar sólo un editor en lugar de todo lo que ofrece un IDE?
 
+_No está bien_ hacerlo, pero...
 
+- Muchas veces llegamos a depender **mucho**
+  de la magia de un IDE
+    - Muchos proyectos llegan a depender de uno
+- ¿Cómo realmente funcionan las cosas?
+- ¿Realmente conozco mi IDE?
+  - ¿Necesito todo lo que me ofrece?
+- ¿Realmente me está ayudando?
+  - ¿Tal vez me está ayudando demasiado?
 
 
 ---
