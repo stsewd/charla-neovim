@@ -30,17 +30,21 @@ En el futuro ya les hablaré de cosas más _interesantes_.
 
 
 
-
-
 ---
 
-# ¿Qué es Vim?
+# Editor vs IDE
 
-- Vim es un editor de texto basado en modos
-- Nació como mejora de Vi (1976)
-- Interfaz basada en texto
+_Un IDE no es un editor_
 
+Sino...
 
+- **I**ntegrated
+- **D**evelopment
+- **E**nvironment
+
+En Spanish: Ambiente de Desarrollo Integrado.
+
+En Español: Un conjunto de herramientas para desarrollar.
 
 
 
