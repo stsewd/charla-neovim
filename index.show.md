@@ -129,7 +129,18 @@ Otras razones...
 
 ---
 
+# Filosofía de Vim
 
+- Libre de distracciones por defecto
+- Ubicuo
+- Mantenerte en el teclado
+  - El mouse, a veces útil otras no
+- Haz una sólo cosa y hazla bien,
+  pero integrate bien otras herramientas
+- Extensible
+- Bien documentado (sino no está documentado no existe)
+- No combinaciones de teclas raras,
+  todo está organizado de una manera lógica y mnemotécnica
 
 
 
