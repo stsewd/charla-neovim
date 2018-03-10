@@ -143,16 +143,21 @@ Otras razones...
   todo está organizado de una manera lógica y mnemotécnica
 
 
+---
 
+# No para todos
 
+Es para ti si...
+- Ere de hacer todo en la terminal
+- Te gusta hacer las cosas desde _scratch_
+- Te gusta leer toda documentación de lo que usas
 
+No es para ti si...
+- Eres muy de interfaces gráficas, ventanas y clicks
+- No te gusta tomarte mucho tiempo configurando/aprendiendo algo
+- No te gusta leer documentación muy extensa
 
-
-
-
-
-
-
+¡Y todas las cosas mencionadas están bien!
 
 ---
 
