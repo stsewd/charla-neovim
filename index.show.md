@@ -34,9 +34,7 @@ En el futuro ya les hablaré de cosas más _interesantes_.
 
 # Editor vs IDE
 
-_Un IDE no es un editor_
-
-Sino...
+_Un IDE no es un editor, sino.._
 
 - **I**ntegrated
 - **D**evelopment
@@ -45,6 +43,8 @@ Sino...
 En Spanish: Ambiente de Desarrollo Integrado.
 
 En Español: Un conjunto de herramientas para desarrollar.
+
+
 
 ---
 
@@ -256,6 +256,39 @@ y es divertido tener algo nuevo que aprender cada día.
 
 
 ---
+
+# Instalación
+
+## Guía oficial
+
+- https://github.com/neovim/neovim/wiki/Installing-Neovim
+
+
+
+
+
+
+
+
+
+---
+
+# Bienvenid@ a Neovim 
+
+
+
+
+
+
+·                                    $ nvim
+
+
+
+
+
+
+---
+
 
 
 `:help 42`
