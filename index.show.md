@@ -271,9 +271,6 @@ y es divertido tener algo nuevo que aprender cada día.
 
 
 
-
-
-
 ---
 
 # Bienvenid@ a Neovim 
@@ -282,8 +279,24 @@ y es divertido tener algo nuevo que aprender cada día.
 
 
 
-
 ·                                    $ nvim
+
+
+
+
+
+
+
+---
+
+# Quiero salir de aquí
+
+> Espero que no sea salir de la meetup...
+
+`:q`       ->       Salir
+`:q!`      ->       Salir, ¡yo sé lo que hago!
+
+
 
 
 
