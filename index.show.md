@@ -305,6 +305,21 @@ y es divertido tener algo nuevo que aprender cada día.
 
 ---
 
+# Dependencias adicionales
+
+- Proveedor de porta-papeles (recomendado)
+- Interfaz de Python (recomendado)
+- Interfaz de Ruby (opcional)
+- Interfaz de Node.js (opcional)
+
+
+
+
+
+
+
+
+---
 
 
 `:help 42`
