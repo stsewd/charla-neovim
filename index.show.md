@@ -220,8 +220,8 @@ y es divertido tener algo nuevo que aprender cada día.
 
 
 
-- https://www.vim.org
-- https://neovim.io/
+-  https://www.vim.org
+-  https://neovim.io/
 
 ---
 
@@ -317,7 +317,7 @@ y es divertido tener algo nuevo que aprender cada día.
 
 
 
-
+> Verificar que todo salió bien con :checkhealth
 
 ---
 
