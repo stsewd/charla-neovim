@@ -320,6 +320,22 @@ y es divertido tener algo nuevo que aprender cada día.
 
 
 ---
+
+# Modos
+
+Un lugar para cada cosa
+
+- **Normal**: todo lo que tecleas son comandos
+    - ¡Donde estás ahora!
+- **Insertar**: escribir texto (esto es el _normal_).
+    - Presiona `i` para entrar
+- **Visual**: seleccionar texto
+    - Presionar `v` para entrar
+
+> Para volver al modo Normal o si te perdiste, presiona `esc`.
+
+
+---
 
 
 `:help 42`
