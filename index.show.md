@@ -242,16 +242,16 @@ y es divertido tener algo nuevo que aprender cada día.
 ---
 
 
-
-
 #                   Hora de poner las manos sobre el teclado
-
 
 
 ·                         Seguiremos la siguiente guía
 
 ·                          http://bit.ly/neovim-guia
 
+·                         Descargar el siguiente repo
+
+·                          http://bit.ly/neovim-repo
 
 
 
