@@ -71,9 +71,7 @@ En el futuro ya les hablaré de cosas más <span class="htmlItalic">interesantes
 
 <span class="Title"># Editor vs IDE</span>
 
-<span class="htmlItalic">Un IDE no es un editor</span>
-
-Sino...
+<span class="htmlItalic">Un IDE no es un editor, sino..</span>
 
 <span class="Identifier">-</span> <span class="htmlBold">I</span>ntegrated
 <span class="Identifier">-</span> <span class="htmlBold">D</span>evelopment
@@ -82,6 +80,8 @@ Sino...
 En Spanish: Ambiente de Desarrollo Integrado.
 
 En Español: Un conjunto de herramientas para desarrollar.
+
+
 
 <span class="Identifier">---</span>
 
@@ -156,13 +156,13 @@ Aún es el editor más usado por desarrollador@s.
 <span class="Identifier">  -</span> En un server (no siempre vas a tener una GUI o nano)
 <span class="Identifier">  -</span> Al aprender herramientas en la terminal (como git)
 <span class="Identifier">-</span> Te va a dar otra idea de lo que es editar texto
+<span class="Identifier">-</span> Va a aumentar tu productividad
 
 Otras razones...
 
 <span class="Identifier">-</span> No vas a ser parte de estos números
 <span class="Identifier">  -</span>  <span class="Underlined"><a href="https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/">https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/</a></span>
 <span class="Identifier">-</span> Te verás muy <span class="htmlItalic">cool</span> entre tus amigos 😎
-
 
 <span class="Identifier">---</span>
 
@@ -214,6 +214,22 @@ y es divertido tener algo nuevo que aprender cada día.
 
 <span class="Identifier">---</span>
 
+<span class="Title"># ¿Cómo va a aumentar mi productividad?</span>
+
+<span class="Identifier">-</span> Manos sobre el teclado
+<span class="Identifier">  -</span> El teclado será una extensión de tus manos
+<span class="Identifier">-</span> Automatizar tareas repetitivas
+<span class="Identifier">  -</span> No más tareas tediosas
+<span class="Identifier">-</span> Altamente configurable
+<span class="Identifier">  -</span> Un editor hecho a tu medida y necesidades
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
 <span class="Title"># ¿Dónde está la charla de Neovim?</span>
 
 <span class="Identifier">-</span> Neovim es un fork de Vim
@@ -241,8 +257,8 @@ y es divertido tener algo nuevo que aprender cada día.
 
 
 
-<span class="Identifier">-</span> <span class="Underlined"><a href="https://www.vim.org">https://www.vim.org</a></span>
-<span class="Identifier">-</span> <span class="Underlined"><a href="https://neovim.io/">https://neovim.io/</a></span>
+<span class="Identifier">-</span>  <span class="Underlined"><a href="https://www.vim.org">https://www.vim.org</a></span>
+<span class="Identifier">-</span>  <span class="Underlined"><a href="https://neovim.io/">https://neovim.io/</a></span>
 
 <span class="Identifier">---</span>
 
@@ -261,14 +277,139 @@ y es divertido tener algo nuevo que aprender cada día.
 
 
 <span class="Identifier">---</span>
-
+
+
+<span class="Title">#                   Hora de poner las manos sobre el teclado</span>
+
+
+·                         Seguiremos la siguiente guía
+
+·                          <span class="Underlined"><a href="http://bit.ly/neovim-guia">http://bit.ly/neovim-guia</a></span>
+
+·                         Descargar el siguiente repo
+
+·                          <span class="Underlined"><a href="http://bit.ly/neovim-repo">http://bit.ly/neovim-repo</a></span>
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Instalación</span>
+
+<span class="Title">## Guía oficial</span>
+
+<span class="Identifier">-</span> <span class="Underlined"><a href="https://github.com/neovim/neovim/wiki/Installing-Neovim">https://github.com/neovim/neovim/wiki/Installing-Neovim</a></span>
+<span class="Identifier">  -</span> Binarios para Windows y Mac
+<span class="Identifier">  -</span> Appimage
+<span class="Identifier">  -</span> Administrador de paquetes de tu distro
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Bienvenid@ a Neovim </span>
+
+
+
+
+
+·                                    $ nvim
+
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Quiero salir de aquí</span>
+
+<span class="Comment">&gt; Espero que no sea salir de la meetup...</span>
+
+<span class="Constant">`:q`</span>       -&gt;       Salir
+<span class="Constant">`:q!`</span>      -&gt;       Salir, ¡yo sé lo que hago!
+
+
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Dependencias adicionales</span>
+
+<span class="Identifier">-</span> Proveedor de porta-papeles (recomendado)
+<span class="Identifier">-</span> Interfaz de Python (recomendado)
+<span class="Identifier">-</span> Interfaz de Ruby (opcional)
+<span class="Identifier">-</span> Interfaz de Node.js (opcional)
+
+
+
+
+
+
+<span class="Comment">&gt; Verificar que todo salió bien con :checkhealth</span>
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Modos</span>
+
+Un lugar para cada cosa
+
+<span class="Identifier">-</span> <span class="htmlBold">Normal</span>: todo lo que tecleas son comandos
+<span class="Identifier">    -</span> ¡Donde estás ahora!
+<span class="Identifier">-</span> <span class="htmlBold">Insertar</span>: escribir texto (esto es el <span class="htmlItalic">normal</span>).
+<span class="Identifier">    -</span> Presiona <span class="Constant">`i`</span> para entrar
+<span class="Identifier">-</span> <span class="htmlBold">Visual</span>: seleccionar texto
+<span class="Identifier">    -</span> Presionar <span class="Constant">`v`</span> para entrar
+
+<span class="Comment">&gt; Para volver al modo Normal o si te perdiste, presiona `esc`.</span>
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Moviéndose por el editor</span>
+
+<span class="Constant">`$ nvim examples/basico/consejo-de-una-oruga.txt`</span>
+
+<span class="Constant">```</span>
+<span class="Constant">                                       ↑</span>
+<span class="Constant">                                       k</span>
+<span class="Constant">                                   ← h   l →</span>
+<span class="Constant">                                       j</span>
+<span class="Constant">                                       ↓</span>
+<span class="Constant">```</span>
+
+Teclado en el que se hizo vi
+<span class="Identifier">-</span>  <span class="Underlined"><a href="https://en.wikipedia.org/wiki/File:KB_Terminal_ADM3A.svg">https://en.wikipedia.org/wiki/File:KB_Terminal_ADM3A.svg</a></span>
+<span class="Identifier">---</span>
+
+<span class="Title"># Más formas de moverse</span>
+
+<span class="Constant">`w`</span>  -&gt;  Palabra (word)
+<span class="Constant">`b`</span>  -&gt;  Palabra hacia atrás (back)
+<span class="Constant">`^`</span>  -&gt;  Inicio de la línea
+<span class="Constant">`$`</span>  -&gt;  Final de la línea
+<span class="Constant">`C-e`</span> -&gt; Scroll
+<span class="Constant">`C-y`</span> -&gt; Scroll
+
+
+
+
+
+
+<span class="Identifier">---</span>
 
 <span class="Constant">`:help 42`</span>
-Modos, modo normal se supone que lo estoy usando para escribir texto y no lo puedo hacer
-Signo de exclamación, piensa en &quot;sólo hazlo!&quot;
 
-Vim se puede usar operadores, objetos, movimientos para editar texto
-Es como un lenguaje
+Neovim tiene operadores, objetos, movimientos que
+nos permiten editar texto. Es como un lenguaje.
 
 <span class="Comment">&lt;!-- Hacer ejemplos con código en python, c y html --&gt;</span>
 
