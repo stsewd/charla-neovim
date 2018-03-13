@@ -119,13 +119,13 @@ Aún es el editor más usado por desarrollador@s.
   - En un server (no siempre vas a tener una GUI o nano)
   - Al aprender herramientas en la terminal (como git)
 - Te va a dar otra idea de lo que es editar texto
+- Va a aumentar tu productividad
 
 Otras razones...
 
 - No vas a ser parte de estos números
   -  https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/
 - Te verás muy _cool_ entre tus amigos 😎
-
 
 ---
 
@@ -172,6 +172,22 @@ Vim es muuuuuy extenso, es mejor aprenderlo de poco a poco.
 
 Yo aún lo estoy aprendiendo,
 y es divertido tener algo nuevo que aprender cada día.
+
+
+
+---
+
+# ¿Cómo va a aumentar mi productividad?
+
+- Manos sobre el teclado
+  - El teclado será una extensión de tus manos
+- Automatizar tareas repetitivas
+  - No más tareas tediosas
+- Altamente configurable
+  - Un editor hecho a tu medida y necesidades
+
+
+
 
 
 
