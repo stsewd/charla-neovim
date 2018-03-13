@@ -357,10 +357,10 @@ Teclado en el que se hizo vi
 
 `w`  ->  Palabra (word)
 `b`  ->  Palabra hacia atrás (back)
-`}`  ->  Párrafo (siguiente)
-`{`  ->  Párrafo (anterior)
-
-
+`^`  ->  Inicio de la línea
+`$`  ->  Final de la línea
+`C-e` -> Scroll
+`C-y` -> Scroll
 
 
 
@@ -370,11 +370,9 @@ Teclado en el que se hizo vi
 ---
 
 `:help 42`
-Modos, modo normal se supone que lo estoy usando para escribir texto y no lo puedo hacer
-Signo de exclamación, piensa en "sólo hazlo!"
 
-Vim se puede usar operadores, objetos, movimientos para editar texto
-Es como un lenguaje
+Neovim tiene operadores, objetos, movimientos que
+nos permiten editar texto. Es como un lenguaje.
 
 <!-- Hacer ejemplos con código en python, c y html -->
 
