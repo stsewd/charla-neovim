@@ -353,6 +353,22 @@ Teclado en el que se hizo vi
 -  https://en.wikipedia.org/wiki/File:KB_Terminal_ADM3A.svg
 ---
 
+# Más formas de moverse
+
+`w`  ->  Palabra (word)
+`b`  ->  Palabra hacia atrás (back)
+`}`  ->  Párrafo (siguiente)
+`{`  ->  Párrafo (anterior)
+
+
+
+
+
+
+
+
+---
+
 `:help 42`
 Modos, modo normal se supone que lo estoy usando para escribir texto y no lo puedo hacer
 Signo de exclamación, piensa en "sólo hazlo!"
