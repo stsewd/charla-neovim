@@ -262,6 +262,9 @@ y es divertido tener algo nuevo que aprender cada día.
 ## Guía oficial
 
 - https://github.com/neovim/neovim/wiki/Installing-Neovim
+  - Binarios para Windows y Mac
+  - Appimage
+  - Administrador de paquetes de tu distro
 
 
 
