@@ -336,7 +336,22 @@ Un lugar para cada cosa
 
 
 ---
-
+
+# Moviéndose por el editor
+
+`$ nvim examples/basico/consejo-de-una-oruga.txt`
+
+```
+                                       ↑
+                                       k
+                                   ← h   l →
+                                       j
+                                       ↓
+```
+
+Teclado en el que se hizo vi
+-  https://en.wikipedia.org/wiki/File:KB_Terminal_ADM3A.svg
+---
 
 `:help 42`
 Modos, modo normal se supone que lo estoy usando para escribir texto y no lo puedo hacer
