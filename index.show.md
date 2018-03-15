@@ -369,6 +369,113 @@ Teclado en el que se hizo vi
 
 ---
 
+# Escribir
+
+- Lo hacemos en el modo insertar `i`
+  - La mayoría de las teclas funcionan como esperas aquí
+
+
+
+
+
+
+
+
+
+
+---
+
+# Modo línea de comandos
+
+Modo especial para ingresar comandos para interactuar con Neovim
+no necesariamente editar texto.
+
+- Se ingresa desde el modo normal con `:`.
+- Escribimos el comando (podemos autocompletar con <tab>)
+- Ejecutar el comando con <enter>
+
+
+
+
+
+
+---
+
+# Comandos esenciales (1)
+
+## Guardar
+
+`:w`
+
+## Salir
+
+`:q`
+
+## Guardar y salir
+
+`:wq`
+
+---
+
+# Comandos esenciales (2)
+
+## Seleccionar texto
+
+Entra al modo visual con `v`
+
+## Copiar & pegar
+
+- Selecciona el texto y presiona `y` para copiar o
+  `d` para cortar.
+- Pega desde el modo normal con `p`.
+
+
+
+---
+
+# El porta-papeles
+
+> Lo que copias/cortas en Neovim se queda en Neovim.
+
+Neovim usa registros (todas las letras y los números cuentan como uno).
+Para usar el porta-papeles de tu S.O antepon `"+` a tu comando.
+
+- `"+y`
+- `"+d`
+- `"+p`
+
+
+> Luego veremos una manera de ahorrarnos esas teclas extras.
+
+---
+
+# Deshacer y Rehacer (Ctrl-z)
+
+**No presiones <C-z>**
+
+- Presiona `u` para deshacer (undo)
+- Presiona <C-r> para rehacer (redo)
+
+
+
+
+
+
+
+
+---
+# Autocompletado
+# Editando varios archivos
+# Buscar
+# Ayuda
+# Operadores, movimientos y objetos 
+# Configurando Neovim
+# Mi primer init.vim
+# Alternativas
+# Conclusión
+# Recursos adicionales
+---
+
 `:help 42`
 
 Neovim tiene operadores, objetos, movimientos que
