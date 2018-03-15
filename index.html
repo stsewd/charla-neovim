@@ -363,13 +363,13 @@ y es divertido tener algo nuevo que aprender cada día.
 Un lugar para cada cosa
 
 <span class="Identifier">-</span> <span class="htmlBold">Normal</span>: todo lo que tecleas son comandos
-<span class="Identifier">    -</span> ¡Donde estás ahora!
+<span class="Identifier">    -</span> Donde estás ahora
 <span class="Identifier">-</span> <span class="htmlBold">Insertar</span>: escribir texto (esto es el <span class="htmlItalic">normal</span>).
 <span class="Identifier">    -</span> Presiona <span class="Constant">`i`</span> para entrar
 <span class="Identifier">-</span> <span class="htmlBold">Visual</span>: seleccionar texto
 <span class="Identifier">    -</span> Presionar <span class="Constant">`v`</span> para entrar
 
-<span class="Comment">&gt; Para volver al modo Normal o si te perdiste, presiona `esc`.</span>
+<span class="Comment">&gt; Para volver al modo Normal o si te perdiste, presiona &lt;esc&gt;.</span>
 
 
 <span class="Identifier">---</span>
@@ -396,8 +396,8 @@ Teclado en el que se hizo vi
 <span class="Constant">`b`</span>  -&gt;  Palabra hacia atrás (back)
 <span class="Constant">`^`</span>  -&gt;  Inicio de la línea
 <span class="Constant">`$`</span>  -&gt;  Final de la línea
-<span class="Constant">`C-e`</span> -&gt; Scroll
-<span class="Constant">`C-y`</span> -&gt; Scroll
+<span class="Constant">`&lt;C-e&gt;`</span> -&gt; Scroll
+<span class="Constant">`&lt;C-y&gt;`</span> -&gt; Scroll
 
 
 
@@ -405,6 +405,113 @@ Teclado en el que se hizo vi
 
 
 <span class="Identifier">---</span>
+
+<span class="Title"># Escribir</span>
+
+<span class="Identifier">-</span> Lo hacemos en el modo insertar <span class="Constant">`i`</span>
+<span class="Identifier">  -</span> La mayoría de las teclas funcionan como esperas aquí
+
+
+
+
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Modo línea de comandos</span>
+
+Modo especial para ingresar comandos para interactuar con Neovim
+no necesariamente editar texto.
+
+<span class="Identifier">-</span> Se ingresa desde el modo normal con <span class="Constant">`:`</span>.
+<span class="Identifier">-</span> Escribimos el comando (podemos autocompletar con <span class="Identifier">&lt;</span>tab<span class="Identifier">&gt;</span>)
+<span class="Identifier">-</span> Ejecutar el comando con <span class="Identifier">&lt;</span>enter<span class="Identifier">&gt;</span>
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Comandos esenciales (1)</span>
+
+<span class="Title">## Guardar</span>
+
+<span class="Constant">`:w`</span>
+
+<span class="Title">## Salir</span>
+
+<span class="Constant">`:q`</span>
+
+<span class="Title">## Guardar y salir</span>
+
+<span class="Constant">`:wq`</span>
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Comandos esenciales (2)</span>
+
+<span class="Title">## Seleccionar texto</span>
+
+Entra al modo visual con <span class="Constant">`v`</span>
+
+<span class="Title">## Copiar &amp; pegar</span>
+
+<span class="Identifier">-</span> Selecciona el texto y presiona <span class="Constant">`y`</span> para copiar o
+  <span class="Constant">`d`</span> para cortar.
+<span class="Identifier">-</span> Pega desde el modo normal con <span class="Constant">`p`</span>.
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># El porta-papeles</span>
+
+<span class="Comment">&gt; Lo que copias/cortas en Neovim se queda en Neovim.</span>
+
+Neovim usa registros (todas las letras y los números cuentan como uno).
+Para usar el porta-papeles de tu S.O antepon <span class="Constant">`&quot;+`</span> a tu comando.
+
+<span class="Identifier">-</span> <span class="Constant">`&quot;+y`</span>
+<span class="Identifier">-</span> <span class="Constant">`&quot;+d`</span>
+<span class="Identifier">-</span> <span class="Constant">`&quot;+p`</span>
+
+
+<span class="Comment">&gt; Luego veremos una manera de ahorrarnos esas teclas extras.</span>
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Deshacer y Rehacer (Ctrl-z)</span>
+
+<span class="htmlBold">No presiones &lt;C-z&gt;</span>
+
+<span class="Identifier">-</span> Presiona <span class="Constant">`u`</span> para deshacer (undo)
+<span class="Identifier">-</span> Presiona <span class="Identifier">&lt;</span>C-r<span class="Identifier">&gt;</span> para rehacer (redo)
+
+
+
+
+
+
+
+
+<span class="Identifier">---</span>
+<span class="Title"># Autocompletado</span>
+<span class="Title"># Editando varios archivos</span>
+<span class="Title"># Buscar</span>
+<span class="Title"># Ayuda</span>
+<span class="Title"># Operadores, movimientos y objetos </span>
+<span class="Title"># Configurando Neovim</span>
+<span class="Title"># Mi primer init.vim</span>
+<span class="Title"># Alternativas</span>
+<span class="Title"># Conclusión</span>
+<span class="Title"># Recursos adicionales</span>
+<span class="Title">---</span>
 
 <span class="Constant">`:help 42`</span>
 
