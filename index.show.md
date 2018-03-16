@@ -527,6 +527,8 @@ Puedes buscar ayuda desde Neovim
 - Si sabes exactamente lo que buscas `:help [tema]`
 - Si no sabes exactamente lo que buscas `:helpgrep [tema]`
 - Con tutorial incluido `:Tutor`
+- ¿Cuál es el significado de la vida, el universo y todo lo demás?
+  - `:help 42`
 
 
 
