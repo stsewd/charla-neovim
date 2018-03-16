@@ -543,7 +543,6 @@ Nuevos: `gg`, `G`
 > Funcionan en conjunto con los operadores.
 
 
-
 ---
 
 ## Operadores y movimientos
@@ -551,8 +550,8 @@ Nuevos: `gg`, `G`
 - Copiar hasta la siguiente palabra: `yw`
 - Eliminar hasta el final de la línea: `d$`
 - Seleccionar hasta la segunda `s`: `v2fs`
-
-
+- Eliminar 2 líneas: `d2j`
+- Copiar todo el archivo: `ggyG`
 
 
 
