@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en"><div id="saka-gui-root" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 2147483647; opacity: 1; pointer-events: none;"><div><div><style>
+@font-face {
+  font-family: Roboto; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased;
+  font-style: normal; font-weight: normal; src: url(moz-extension://d0e4ffc9-7684-46a5-8bb4-f23e65fe8990/Roboto-Regular.tff) format('tff');
+}
+.saka-hint-body {
+  all: initial;
+position: absolute;
+z-index: 2147483647;
+opacity: 1;
+font-family: Roboto, sans-serif;
+font-weight: 900;
+padding: 0.15rem 0.25rem;
+border: 0px solid;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+vertical-align: middle;
+font-size: 12px;
+color: #3f51F5;
+background-color: #ffffff;
+border-color: #ffffff;
+box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+border-radius: 4px;
+transform: translate3d(0%, -50%, 0)
+}
+.saka-hint-normal-char {
+  
+}
+.saka-hint-active-char {
+  opacity: 0.5
+}</style><div style="position: absolute; left: 0px; top: 0px;"></div></div></div></div><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="vim out of the box">
+    <title>Home - Neovim</title>
+    <link href="neovim-home_files/css.css" rel="stylesheet">
+    <link href="neovim-home_files/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="neovim-home_files/bootstrap.css">
+    <link href="neovim-home_files/main.css" rel="stylesheet">
+    <link rel="canonical" href="https://neovim.io/">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script type="text/javascript" charset="utf-8" async="" src="neovim-home_files/button.js"></script></head>
+
+  <body>
+    <header class="navbar">
+    <div class="container">
+        <nav class="navbar">
+	    <div class="container-fluid">
+	    <div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+		    <span class="sr-only">Toggle navigation</span>
+		    <img src="neovim-home_files/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
+		</button>
+		<a href="https://neovim.io/" class="navbar-brand">
+		    <img src="neovim-home_files/logo2x.png" id="navbar-logo" alt="Neovim">
+		</a>
+	    </div>
+	    <div class="collapse navbar-collapse navbar-top-align" id="menu">
+	        <ul class="nav navbar-nav navbar-right">
+		
+		    
+		    <li>
+		    
+		    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+		    
+			<ul class="dropdown-menu">
+			
+			    <li>
+				<a href="https://neovim.io/charter/">Vision</a>
+			    </li>
+			
+			    <li>
+				<a href="https://neovim.io/roadmap/">Roadmap</a>
+			    </li>
+			
+			</ul>
+		    
+		    </li>
+		
+		    
+		    <li>
+		    
+		    <a href="https://neovim.io/news/">News</a>
+		    
+		    </li>
+		
+		    
+		    <li>
+		    
+		    <a href="https://github.com/neovim/neovim">Development</a>
+		    
+		    </li>
+		
+		    
+		    <li>
+		    
+		    <a href="https://neovim.io/community/">Community</a>
+		    
+		    </li>
+		
+		    
+		    <li>
+		    
+		    <a href="https://neovim.io/doc/">Documentation</a>
+		    
+		    </li>
+		
+		    
+		    <li>
+		    
+		    <a href="https://neovim.io/sponsors/">Sponsors</a>
+		    
+		    </li>
+		
+		</ul>
+	    </div>
+	    </div>
+        </nav>
+    </div>
+</header>
+
+
+<section class="masthead">
+  <div class="container">
+    <h1>literally the future of <a href="https://twitter.com/nelstrom/status/881813223997153280">vim</a>
+</h1>
+    <p><a href="https://github.com/neovim/neovim/wiki/Installing-Neovim" class="btn">Install Now</a></p>
+  </div>
+</section>
+
+<section class="front-section">
+  <div class="container">
+    <div class="col-wide">
+      <h2>Features</h2>
+
+      <h3>Powerful plugins</h3>
+      <p>The <a href="http://msgpack.org/">msgpack</a> API enables structured
+      communication to and from any programming language. Remote plugins run as
+      co-processes that communicate with Neovim safely and asynchronously.</p>
+
+      <h3>Better out-of-the-box</h3>
+      <ul>
+        <li>Strong defaults</li>
+        <li>Modern terminal features such as cursor styling, focus events, bracketed paste</li>
+        <li>Built-in <a href="https://www.youtube.com/watch?v=xZbMVj9XSUo">terminal emulator</a>
+</li>
+      </ul>
+
+      <h3>First-class embedding</h3>
+      <p>GUIs can <code>nvim --embed</code> or communicate via named pipe using
+      the discoverable msgpack <a href="https://neovim.io/doc/user/api.html#api">API</a>.</p>
+
+      <h3>Drop-in replacement for Vim</h3>
+      <p>Neovim is an <em>extension</em> of Vim: feature-parity and
+      backwards-compatibility are high priorities. If you already use Vim,
+      see <a href="https://neovim.io/doc/user/nvim.html#nvim-from-vim"><code>:help nvim-from-vim</code></a>.</p>
+
+    </div>
+    <div class="col-narrow">
+      <div id="sponsors" class="sponsors-main" style="display: none;">
+        <h3>Main sponsors</h3>
+
+      </div>
+      <script async="" src="neovim-home_files/analytics.js"></script><script id="twitter-wjs" src="neovim-home_files/widgets.js"></script><script>var sponsorsDivId = 'sponsors', sponsorsFront = true;</script>
+
+      <div class="news-section">
+        <h2 id="news">News</h2>
+
+        
+        <table>
+        
+        
+          <tbody><tr>
+            <td>
+<a href="https://neovim.io/news/2017/12/">Newsletter #8 - Open up the Windows</a>&nbsp;&nbsp; </td>
+            <td style="text-align: right">2017-12-16</td>
+          </tr>
+          
+        
+          <tr>
+            <td>
+<a href="https://neovim.io/news/2016/11/">Newsletter #7 - Summer of Road</a>&nbsp;&nbsp; </td>
+            <td style="text-align: right">2016-11-01</td>
+          </tr>
+          
+        
+        </tbody></table>
+        
+
+        <p><a href="https://neovim.io/news/archive">More…</a></p>
+
+        <h2>Impressions</h2>
+        <p>
+          "Neovim is exactly what it claims to be. It fixes every issue I have with Vim."
+          <a href="http://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/">—Geoff Greer</a>
+        </p>
+        <p>
+          "OMG! <a href="https://github.com/Neovim" class="user-mention">@Neovim</a> just works :)"
+          <a href="https://twitter.com/mehowte/status/721639254938533889">—@mehowte</a>
+        </p>
+        <p>
+          "A nice looking website, that’s one thing Neovim did right."
+          <a href="https://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/">—Bram Moolenaar</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="front-section shaded">
+  <div class="container">
+    <div class="col-wide">
+      <h2 id="faqs">FAQ</h2>
+
+      <dl class="faqs">
+        <dt>What is the project status?</dt>
+        <dd>
+          <code>0.2.2</code> is the
+          current <a href="https://github.com/neovim/neovim/releases/latest">release</a>.
+          <a href="https://github.com/neovim/neovim/milestones">Milestones</a>
+          track progress; the <a href="https://neovim.io/roadmap/">roadmap</a> outlines
+          high-level plans.
+        </dd>
+
+        <dt>Is Neovim trying to turn Vim into an IDE?</dt>
+        <dd>With 30% less source-code than Vim, the <a href="https://neovim.io/charter/">vision</a>
+        of Neovim is to enable new applications without compromising Vim's
+        traditional roles. </dd>
+
+        <dt>Will Neovim deprecate Vimscript?</dt>
+        <dd>
+          No. Lua is built-in and always available, but Vimscript will always
+          be supported.
+          Neovim has the <b>most advanced Vimscript engine in the world</b>,
+          featuring an AST-producing parser.
+        </dd>
+
+        <dt>Which plugins does Neovim support?</dt>
+        <dd>Most Vim plugins, and more.
+            See <a href="https://github.com/neovim/neovim/wiki/Related-projects">related projects</a>
+            for plugins and applications that leverage the Neovim API.</dd>
+
+      </dl>
+    </div>
+
+    <div class="col-narrow">
+      <h2>Chat</h2>
+      <p>
+        <iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 139px; height: 28px;" title="Twitter Follow Button" src="neovim-home_files/follow_button.html" data-screen-name="Neovim" frameborder="0"></iframe>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </p>
+
+      <p>
+        Discuss the project at <a href="https://gitter.im/neovim/neovim">gitter.im/neovim</a>,
+        IRC (<strong>#neovim</strong> on <strong>irc.freenode.net</strong>)
+      </p>
+
+      <p>Contribute code, report bugs and request features at <a href="https://github.com/neovim/neovim">GitHub</a>.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="front-section">
+  <div class="container">
+    <h2 id="support">Supporting the project</h2>
+
+    <div class="col-narrow">
+      <h3>Bountysource</h3>
+      <p>
+      You can donate to the
+      <a href="https://salt.bountysource.com/teams/neovim">Neovim project</a>
+      on Bountysource.
+      </p>
+    </div>
+
+    <div class="col-narrow">
+      <h3>Bitcoin</h3>
+      <div class="donate">
+        <div class="icon">
+          <img src="neovim-home_files/bitcoin.png" alt="Bitcoin logo">
+        </div>
+        <input class="donate" value="1Evu6wPrzjsjrNPdCYbHy3HT6ry2EzXFyQ" readonly="readonly" type="text">
+      </div>
+
+      <p>
+      View the address at
+      <a href="https://blockchain.info/address/1Evu6wPrzjsjrNPdCYbHy3HT6ry2EzXFyQ">Blockchain.info</a>.
+      </p>
+    </div>
+
+    <div class="col-narrow">
+      <h3>Logo</h3>
+      <p><a href="https://neovim.io/logos/neovim-logos.zip">Neovim-logos.zip</a> <span class="light">(1.1 MB)</span></p>
+      <p class="light small">The Neovim logo by <a href="http://twitter.com/jasonlong">Jason Long</a> is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
+    </div>
+
+  </div>
+</section>
+
+
+    <footer>
+  <div class="container">
+    <div class="col-wide">
+    
+      <a href="https://neovim.io/about/">About</a>
+      
+        ·
+      
+    
+      <a href="https://neovim.io/news/">News</a>
+      
+        ·
+      
+    
+      <a href="https://github.com/neovim/neovim">Development</a>
+      
+        ·
+      
+    
+      <a href="https://neovim.io/community/">Community</a>
+      
+        ·
+      
+    
+      <a href="https://neovim.io/doc/">Documentation</a>
+      
+        ·
+      
+    
+      <a href="https://neovim.io/sponsors/">Sponsors</a>
+      
+    
+    </div>
+
+    <div class="col-narrow">
+      This site's source is <a href="https://github.com/neovim/neovim.github.io/">hosted on GitHub</a>.
+    </div>
+  </div>
+</footer>
+
+
+    <script src="neovim-home_files/jquery.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48317591-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="neovim-home_files/sponsors-override.js"></script>
+    <script src="neovim-home_files/sponsors.js"></script>
+    <script src="neovim-home_files/bootstrap.js"></script>
+  
+
+<style type="text/css">
+    /* loading */
+    .lt-sk-three-bounce {
+      margin: 2px auto;
+      width: 100%;
+      text-align: center; }
+      .lt-sk-three-bounce .lt-sk-child {
+        width: 5px;
+        height: 5px;
+        background-color: #333;
+        border-radius: 100%;
+        display: inline-block;
+        -webkit-animation: lt-sk-three-bounce 1.4s ease-in-out 0s infinite both;
+                animation: lt-sk-three-bounce 1.4s ease-in-out 0s infinite both; }
+      .lt-sk-three-bounce .lt-sk-bounce1 {
+        -webkit-animation-delay: -0.32s;
+                animation-delay: -0.32s; }
+      .lt-sk-three-bounce .lt-sk-bounce2 {
+        -webkit-animation-delay: -0.16s;
+                animation-delay: -0.16s; }
+
+    @-webkit-keyframes lt-sk-three-bounce {
+      0%, 80%, 100% {
+        -webkit-transform: scale(0);
+                transform: scale(0); }
+      40% {
+        -webkit-transform: scale(1);
+                transform: scale(1); } }
+
+    @keyframes lt-sk-three-bounce {
+      0%, 80%, 100% {
+        -webkit-transform: scale(0);
+                transform: scale(0); }
+      40% {
+        -webkit-transform: scale(1);
+                transform: scale(1); } }
+  </style><iframe scrolling="no" allowtransparency="true" src="neovim-home_files/widget_iframe.html" style="display: none;" frameborder="0"></iframe><iframe id="rufous-sandbox" scrolling="no" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: medium none;" title="Twitter analytics iframe" frameborder="0"></iframe></body></html>
