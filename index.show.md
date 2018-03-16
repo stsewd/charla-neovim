@@ -625,6 +625,21 @@ nos permiten editar texto. Es como un lenguaje.
 ---
 ---
 
+# Alternativas
+
+¿Te gustaron ciertas características de Neovim pero
+no te atreverías a abandonar tu actual editor o IDE?
+
+- Este meetup pretendía mostrarte:
+  - La filosofía de Vim y Neovim
+  - La poderoso que es un editor modal
+  - Manipular texto con operadores, movimientos y objetos
+- Existen muchos plugins para imitar las características de Vim/Neovim
+    - Atom + Atom Vim mode plus
+    - IntelliJ IDEA (y derivados) + IdeaVim
+    - Eclipse + Vrapper
+
+---
 
 
 
