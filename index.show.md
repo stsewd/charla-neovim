@@ -673,17 +673,17 @@ no te atreverías a abandonar tu actual editor o IDE?
 
 ---
 
-
-
-#                        Hecho y Presentado con Neovim
-
-
-
-
-
-·                          Código fuente en GitHub 
-                    https://github.com/stsewd/charla-neovim
-
-
-
+            .o/       /o.                
+          .oyyhs      /yyo.                      
+        .oysssyyy.    /sooyo.            Hecho y Presentado con 
+        ysssssyyyh:   :sooooy                    Neovim
+        ysssosyyyyho  :soooos     
+        sssssshyyyyyy.:s+o+os     
+        sooooyoysssssyss++++s     
+        soooos:`syssssyo++++s    
+        soooos:  +ysssso++++s    
+        soooos:   -yssso++//s           Código fuente en GitHub 
+        `+s++s:    `sso+++o+.    https://github.com/stsewd/charla-neovim
+          `+ss:      +s+s+.       
+            `o:       -+.
 
