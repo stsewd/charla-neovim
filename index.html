@@ -22,6 +22,7 @@ body { font-family: fura; color: #000000; background-color: #ffffff; }
 .Underlined { color: #c000c0; text-decoration: underline; }
 .Comment { color: #0000c0; }
 .Constant { color: #c00000; }
+.Statement { color: #af5f00; font-weight: bold; }
 .htmlBold { font-weight: bold; }
 .Title { color: #c000c0; font-weight: bold; }
 -->
@@ -501,28 +502,218 @@ Para usar el porta-papeles de tu S.O antepon <span class="Constant">`&quot;+`</s
 
 
 <span class="Identifier">---</span>
+
 <span class="Title"># Autocompletado</span>
+
+Mientras estás en modo insertar, escribe el
+inicio de una palabra y presiona <span class="Identifier">&lt;</span>C-<span class="Statement">p</span><span class="Identifier">&gt;</span> o <span class="Identifier">&lt;</span>C-n<span class="Identifier">&gt;</span>
+para iterar sobre las sugerencias.
+
+También podemos completar archivos con <span class="Identifier">&lt;</span>C-x<span class="Identifier">&gt;&lt;</span>C-f<span class="Identifier">&gt;</span>
+
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
 <span class="Title"># Editando varios archivos</span>
+
+Neovim tiene pestañas, pero no son exactamente
+lo mismo que en los demás editores.
+
+En Neovim usaremos buffers y ventanas.
+
+<span class="Identifier">-</span> <span class="Constant">`$ nvim archivo-uno.txt archivo-dos.txt`</span>
+<span class="Identifier">-</span> <span class="Constant">`:e archivo-dos.txt`</span>
+
+Listar los buffers: <span class="Constant">`:ls`</span>
+Cambiar de buffer: <span class="Constant">`:bnext`</span>, <span class="Constant">`:bprevious`</span>
+Cerrar el buffer actual: <span class="Constant">`:bdelete`</span>
+
+<span class="Identifier">---</span>
+
 <span class="Title"># Buscar</span>
+
+<span class="Identifier">-</span> En modo normal presiona <span class="Constant">`/`</span>
+<span class="Identifier">-</span> Ingresa la palabra a buscar y presiona <span class="Identifier">&lt;</span>enter<span class="Identifier">&gt;</span>.
+<span class="Identifier">-</span> Muévete a la siguiente o anterior coincidencia con <span class="Constant">`n`</span> y <span class="Constant">`N`</span>.
+<span class="Identifier">-</span> Puedes buscar en la misma línea presionando <span class="Constant">`f`</span> y luego una letra.
+
+
+
+
+
+<span class="Comment">&gt; También puedes buscar en reversa con `?`.</span>
+<span class="Comment">&gt; La búsqueda soporta expresiones regulares.</span>
+
+<span class="Identifier">---</span>
+
 <span class="Title"># Ayuda</span>
-<span class="Title"># Operadores, movimientos y objetos </span>
+
+Puedes buscar ayuda desde Neovim
+
+<span class="Identifier">-</span> Si sabes exactamente lo que buscas <span class="Constant">`:help [tema]`</span>
+<span class="Identifier">-</span> Si no sabes exactamente lo que buscas <span class="Constant">`:helpgrep [tema]`</span>
+<span class="Identifier">-</span> Con tutorial incluido <span class="Constant">`:Tutor`</span>
+<span class="Identifier">-</span> ¿Cuál es el significado de la vida, el universo y todo lo demás?
+<span class="Identifier">  -</span> <span class="Constant">`:help 42`</span>
+
+
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Neovim entiende tu texto (1)</span>
+
+<span class="htmlBold">Operadores</span>: <span class="htmlItalic">Qué hacer con el texto</span>
+
+Ya los hemos visto: <span class="Constant">`d`</span>, <span class="Constant">`v`</span>, <span class="Constant">`y`</span>, <span class="Constant">`c`</span>
+
+<span class="htmlBold">Movimientos</span>: <span class="htmlItalic">Hasta dónde</span>
+
+Ya los hemos visto: <span class="Constant">`w`</span>, <span class="Constant">`f`</span>, <span class="Constant">`$`</span>, <span class="Constant">`j`</span>, <span class="Constant">`k`</span>
+Nuevos: <span class="Constant">`gg`</span>, <span class="Constant">`G`</span>
+
+<span class="Comment">&gt; Funcionan en conjunto con los operadores.</span>
+
+
+<span class="Identifier">---</span>
+
+<span class="Title">## Operadores y movimientos</span>
+
+<span class="Identifier">-</span> Copiar hasta la siguiente palabra: <span class="Constant">`yw`</span>
+<span class="Identifier">-</span> Eliminar hasta el final de la línea: <span class="Constant">`d$`</span>
+<span class="Identifier">-</span> Seleccionar hasta la segunda <span class="Constant">`s`</span>: <span class="Constant">`v2fs`</span>
+<span class="Identifier">-</span> Eliminar 2 líneas: <span class="Constant">`d2j`</span>
+<span class="Identifier">-</span> Copiar todo el archivo: <span class="Constant">`ggyG`</span>
+
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Neovim entiende tu texto (2)</span>
+
+<span class="htmlBold">Objetos</span>: <span class="htmlItalic">Qué parte del texto</span>
+
+<span class="Identifier">-</span> Palabra: <span class="Constant">`w`</span>
+<span class="Identifier">-</span> Párrafo: <span class="Constant">`p`</span>
+<span class="Identifier">-</span> Oración: <span class="Constant">`.`</span>
+<span class="Identifier">-</span> Entre comillas/paréntesis: <span class="Constant">`'`</span>, <span class="Constant">`)`</span>
+
+Debemos siempre usarlos con un <span class="htmlItalic">modificador</span>: Dentro (<span class="Constant">`i`</span>), todo (<span class="Constant">`a`</span>).
+
+
+<span class="Comment">&gt; Funcionan junto con los operadores</span>
+
+<span class="Identifier">---</span>
+
+<span class="Title">## Operadores y objetos</span>
+
+<span class="Identifier">-</span> Eliminar palabra: <span class="Constant">`diw`</span>
+<span class="Identifier">-</span> Eliminar oración <span class="Constant">`di.`</span>
+<span class="Identifier">-</span> Eliminar texto dentro de paréntesis: <span class="Constant">`di)`</span>
+<span class="Identifier">-</span> Eliminar texto Dentro de paréntesis (incluidos): <span class="Constant">`da)`</span>
+<span class="Identifier">-</span> Seleccionar párrafo: <span class="Constant">`vip`</span>
+<span class="Identifier">-</span> Seleccionar oración (incluidos espacios): <span class="Constant">`va.`</span>
+
+
+
+
+
+
+<span class="Identifier">---</span>
+
 <span class="Title"># Configurando Neovim</span>
+
+Neovim a diferencia de Vim viene con configuraciones
+por defecto amigables, pero aún podemos adaptarlo
+a nuestro gusto.
+
+Algunas opciones
+<span class="Identifier">-</span> <span class="Constant">`:set number`</span>
+<span class="Identifier">-</span> <span class="Constant">`:set title`</span>
+
+Todas las opciones
+<span class="Identifier">-</span> <span class="Constant">`:options`</span>
+
+
+<span class="Identifier">---</span>
+
 <span class="Title"># Mi primer init.vim</span>
+
+Las opciones anteriores se perderán cuando salgas de Neovim.
+Podemos hacer que Neovim las cargue cada vez que inicia.
+
+<span class="Constant">`$ cd ~/.config`</span>
+<span class="Constant">`$ mkdir nvim`</span>
+<span class="Constant">`$ nvim nvim/init.vim`</span>
+
+Agregamos nuestras configuraciones (sin escribir los <span class="Constant">`:`</span>).
+Para ver los cambios: <span class="Constant">`:so ~/.config/nvim/init.vim`</span>.
+
+<span class="Identifier">-</span>  <span class="Underlined"><a href="http://bit.ly/primer-initvim">http://bit.ly/primer-initvim</a></span>
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Mappings</span>
+
+No es tan productivo estar escribiendo ciertos comandos
+(sobre todo los que usaremos a menudo, como guardar).
+
+Podemos definir shortcuts (mappings) en nuestro init.vim
+
+<span class="Constant">```</span>
+<span class="Constant">nnoremap &lt;C-s&gt; :write&lt;CR&gt;</span>
+<span class="Constant">```</span>
+
+<span class="Identifier">-</span>  <span class="Underlined"><a href="http://bit.ly/nvim-mappings">http://bit.ly/nvim-mappings</a></span>
+
+
+<span class="Identifier">---</span>
+
+<span class="Title"># Plugins</span>
+
+<span class="Identifier">-</span> Son archivos <span class="Constant">`.vim`</span> (igual que nuestro init.vim)
+<span class="Identifier">-</span> Es recomendable usar un administrador de plugins
+<span class="Identifier">-</span> Neovim permite escribir plugins en cualquier lenguaje
+<span class="Identifier">  -</span> Los plugins escritos en Python son los más populares 😉
+<span class="Identifier">-</span> Los plugins de Vim son compatibles con Neovim, pero
+  trata de buscar si existe una alternativa que haga uso
+  de las características de Neovim.
+<span class="Identifier">-</span> Guía y lista de plugins
+<span class="Identifier">  -</span>  <span class="Underlined"><a href="http://bit.ly/nvim-plugins">http://bit.ly/nvim-plugins</a></span>
+
+
+
+<span class="Identifier">---</span>
+
 <span class="Title"># Alternativas</span>
-<span class="Title"># Conclusión</span>
-<span class="Title"># Recursos adicionales</span>
-<span class="Title">---</span>
 
-<span class="Constant">`:help 42`</span>
+¿Te gustaron ciertas características de Neovim pero
+no te atreverías a abandonar tu actual editor o IDE?
 
-Neovim tiene operadores, objetos, movimientos que
-nos permiten editar texto. Es como un lenguaje.
-
-<span class="Comment">&lt;!-- Hacer ejemplos con código en python, c y html --&gt;</span>
+<span class="Identifier">-</span> Este meetup pretendía mostrarte:
+<span class="Identifier">  -</span> La filosofía de Vim y Neovim
+<span class="Identifier">  -</span> La poderoso que es un editor modal
+<span class="Identifier">  -</span> Manipular texto con operadores, movimientos y objetos
+<span class="Identifier">-</span> Existen muchos plugins para imitar las características de Vim/Neovim
+<span class="Identifier">    -</span> Atom + Atom Vim mode plus
+<span class="Identifier">    -</span> IntelliJ IDEA (y derivados) + IdeaVim
+<span class="Identifier">    -</span> Eclipse + Vrapper
 
 <span class="Identifier">---</span>
-<span class="Identifier">---</span>
 
+
+
+<span class="Title">#                        Hecho y Presentado con Neovim</span>
 
 
 
@@ -530,9 +721,6 @@ nos permiten editar texto. Es como un lenguaje.
 
 ·                          Código fuente en GitHub 
                     <span class="Underlined"><a href="https://github.com/stsewd/charla-neovim">https://github.com/stsewd/charla-neovim</a></span>
-
-
-
 
 
 
