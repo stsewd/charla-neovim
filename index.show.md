@@ -594,6 +594,21 @@ Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
 ---
 
 # Configurando Neovim
+
+Neovim a diferencia de Vim viene con configuraciones
+por defecto amigables, pero aún podemos adaptarlo
+a nuestro gusto.
+
+Algunas opciones
+- `:set number`
+- `:set title`
+
+Todas las opciones
+- `:options`
+
+
+---
+
 # Mi primer init.vim
 # Alternativas
 # Conclusión
