@@ -498,6 +498,28 @@ Cerrar el buffer actual: `:bdelete`
 ---
 
 # Buscar
+
+- En modo normal presiona `/`
+- Ingresa la palabra a buscar y presiona <enter>.
+- Muévete a la siguiente o anterior coincidencia con `n` y `N`.
+
+
+
+
+
+
+> También puedes buscar en reversa con `?`.
+> La búsqueda soporta expresiones regulares.
+
+---
+
+
+
+
+
+
+---
+
 # Ayuda
 # Operadores, movimientos y objetos 
 # Configurando Neovim
