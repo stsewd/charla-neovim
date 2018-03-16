@@ -502,7 +502,7 @@ Cerrar el buffer actual: `:bdelete`
 - En modo normal presiona `/`
 - Ingresa la palabra a buscar y presiona <enter>.
 - Muévete a la siguiente o anterior coincidencia con `n` y `N`.
-
+- Puedes buscar en la misma línea presionando `f` y luego una letra.
 
 
 
