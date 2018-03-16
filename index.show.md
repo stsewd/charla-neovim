@@ -464,7 +464,23 @@ Para usar el porta-papeles de tu S.O antepon `"+` a tu comando.
 
 
 ---
+
 # Autocompletado
+
+Mientras estás en modo insertar, escribe el
+inicio de una palabra y presiona <C-p> o <C-n>
+para iterar sobre las sugerencias.
+
+También podemos completar archivos con <C-x><C-f>
+
+
+
+
+
+
+
+---
+
 # Editando varios archivos
 # Buscar
 # Ayuda
