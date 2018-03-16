@@ -593,6 +593,22 @@ Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
 
 ---
 
+# No te repitas
+
+Principio DRY, el comando `.`
+
+Repite la última acción.
+
+
+
+
+
+
+
+
+
+---
+
 # Configurando Neovim
 
 Neovim a diferencia de Vim viene con configuraciones
