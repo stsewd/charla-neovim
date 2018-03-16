@@ -628,13 +628,14 @@ nos permiten editar texto. Es como un lenguaje.
 
 
 
+#                        Hecho y Presentado con Neovim
+
+
+
 
 
 ·                          Código fuente en GitHub 
                     https://github.com/stsewd/charla-neovim
-
-
-
 
 
 
