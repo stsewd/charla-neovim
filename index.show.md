@@ -482,6 +482,21 @@ También podemos completar archivos con <C-x><C-f>
 ---
 
 # Editando varios archivos
+
+Neovim tiene pestañas, pero no son exactamente
+lo mismo que en los demás editores.
+
+En Neovim usaremos buffers y ventanas.
+
+- `$ nvim archivo-uno.txt archivo-dos.txt`
+- `:e archivo-dos.txt`
+
+Listar los buffers: `:ls`
+Cambiar de buffer: `:bnext`, `:bprevious`
+Cerrar el buffer actual: `:bdelete`
+
+---
+
 # Buscar
 # Ayuda
 # Operadores, movimientos y objetos 
