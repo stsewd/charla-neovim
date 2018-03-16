@@ -339,7 +339,7 @@ Un lugar para cada cosa
 
 # Moviéndose por el editor
 
-`$ nvim examples/basico/consejo-de-una-oruga.txt`
+`$ nvim examples/texto/consejo-de-una-oruga.txt`
 
 ```
                                        ↑
