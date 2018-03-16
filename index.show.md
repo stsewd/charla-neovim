@@ -521,6 +521,20 @@ Cerrar el buffer actual: `:bdelete`
 ---
 
 # Ayuda
+
+Puedes buscar ayuda desde Neovim
+
+- Si sabes exactamente lo que buscas `:help [tema]`
+- Si no sabes exactamente lo que buscas `:helpgrep [tema]`
+- Con tutorial incluido `:Tutor`
+
+
+
+
+
+
+
+---
 # Operadores, movimientos y objetos 
 # Configurando Neovim
 # Mi primer init.vim
