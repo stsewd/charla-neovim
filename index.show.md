@@ -610,9 +610,19 @@ Todas las opciones
 ---
 
 # Mi primer init.vim
-# Alternativas
-# Conclusión
-# Recursos adicionales
+
+Las opciones anteriores se perderán cuando salgas de Neovim.
+Podemos hacer que Neovim las cargue cada vez que inicia.
+
+`$ cd ~/.config`
+`$ mkdir nvim`
+`$ nvim nvim/init.vim`
+
+Agregamos nuestras configuraciones (sin escribir los `:`).
+Para ver los cambios: `:so ~/.config/nvim/init.vim`.
+
+-  http://bit.ly/primer-initvim
+
 ---
 
 `:help 42`
