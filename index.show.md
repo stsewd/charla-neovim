@@ -579,12 +579,12 @@ Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
 
 ## Operadores y objetos
 
-
-
-
-
-
-
+- Eliminar palabra: `diw`
+- Eliminar oración `di.`
+- Eliminar texto dentro de paréntesis: `di)`
+- Eliminar texto Dentro de paréntesis (incluidos): `da)`
+- Seleccionar párrafo: `vip`
+- Seleccionar oración (incluidos espacios): `va.`
 
 
 
