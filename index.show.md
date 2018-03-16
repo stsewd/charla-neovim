@@ -625,12 +625,19 @@ Para ver los cambios: `:so ~/.config/nvim/init.vim`.
 
 ---
 
-`:help 42`
+# Mappings
 
-Neovim tiene operadores, objetos, movimientos que
-nos permiten editar texto. Es como un lenguaje.
+No es tan productivo estar escribiendo ciertos comandos
+(sobre todo los que usaremos a menudo, como guardar).
 
-<!-- Hacer ejemplos con código en python, c y html -->
+Podemos definir shortcuts (mappings) en nuestro init.vim
+
+```
+nnoremap <C-s> :write<CR>
+```
+
+-  http://bit.ly/nvim-mappings
+
 
 ---
 ---
