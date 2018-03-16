@@ -534,10 +534,72 @@ Puedes buscar ayuda desde Neovim
 
 
 
+---
+
+# Neovim entiende tu texto (1)
+
+**Operadores**: _Qué hacer con el texto_
+
+Ya los hemos visto: `d`, `v`, `y`, `c`
+
+**Movimientos**: _Hasta dónde_
+
+Ya los hemos visto: `w`, `f`, `$`
+
+> Funcionan en conjunto con los operadores.
+
 
 
 ---
-# Operadores, movimientos y objetos 
+
+## Operadores y movimientos
+
+- Copiar hasta la siguiente palabra: `yw`
+- Eliminar hasta el final de la línea: `d$`
+- Seleccionar hasta la segunda `s`: `v2fs`
+
+
+
+
+
+
+
+
+
+---
+
+# Neovim entiende tu texto (2)
+
+**Objetos**: _Qué parte del texto_
+
+- Palabra: `w`
+- Párrafo: `p`
+- Oración: `.`
+- Entre comillas/paréntesis: `'`, `)`
+
+Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
+
+
+> Funcionan junto con los operadores
+
+---
+
+## Operadores y objetos
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 # Configurando Neovim
 # Mi primer init.vim
 # Alternativas
