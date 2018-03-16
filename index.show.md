@@ -350,7 +350,7 @@ Un lugar para cada cosa
 ```
 
 Teclado en el que se hizo vi
--  https://en.wikipedia.org/wiki/File:KB_Terminal_ADM3A.svg
+-  https://en.wikipedia.org/wiki/File%3AKB_Terminal_ADM3A.svg
 ---
 
 # Más formas de moverse
