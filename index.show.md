@@ -513,13 +513,6 @@ Cerrar el buffer actual: `:bdelete`
 
 ---
 
-
-
-
-
-
----
-
 # Ayuda
 
 Puedes buscar ayuda desde Neovim
@@ -544,7 +537,8 @@ Ya los hemos visto: `d`, `v`, `y`, `c`
 
 **Movimientos**: _Hasta dónde_
 
-Ya los hemos visto: `w`, `f`, `$`
+Ya los hemos visto: `w`, `f`, `$`, `j`, `k`
+Nuevos: `gg`, `G`
 
 > Funcionan en conjunto con los operadores.
 
