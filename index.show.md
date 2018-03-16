@@ -640,6 +640,21 @@ nnoremap <C-s> :write<CR>
 
 
 ---
+
+# Plugins
+
+- Son archivos `.vim` (igual que nuestro init.vim)
+- Es recomendable usar un administrador de plugins
+- Neovim permite escribir plugins en cualquier lenguaje
+  - Los plugins escritos en Python son los más populares 😉
+- Los plugins de Vim son compatibles con Neovim, pero
+  trata de buscar si existe una alternativa que haga uso
+  de las características de Neovim.
+- Guía y lista de plugins
+  -  http://bit.ly/nvim-plugins
+
+
+
 ---
 
 # Alternativas
