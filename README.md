@@ -12,6 +12,7 @@ https://stsewd.github.io/charla-neovim/
 ### Desde Vim/Neovim
 
 - Instala [light-show.vim](https://github.com/stsewd/light-show.vim)
+- Abre el archivo `index.show.md`
 - Presiona `<Enter>` para entrar al modo presentación
 - En el modo presentación navega entre slides con `n` y `p`
 - Para salir del modo presentación presiona `<escape>`
