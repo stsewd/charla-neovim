@@ -565,9 +565,9 @@ Nuevos: `gg`, `G`
 
 **Objetos**: _Qué parte del texto_
 
-- Palabra: `w`
+- Palabra: `w` (word)
 - Párrafo: `p`
-- Oración: `.`
+- Oración: `s` (sentence)
 - Entre comillas/paréntesis: `'`, `)`
 
 Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
@@ -580,11 +580,11 @@ Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
 ## Operadores y objetos
 
 - Eliminar palabra: `diw`
-- Eliminar oración `di.`
+- Eliminar oración `dis`
 - Eliminar texto dentro de paréntesis: `di)`
 - Eliminar texto Dentro de paréntesis (incluidos): `da)`
 - Seleccionar párrafo: `vip`
-- Seleccionar oración (incluidos espacios): `va.`
+- Seleccionar oración (incluidos espacios): `vas`
 
 
 
